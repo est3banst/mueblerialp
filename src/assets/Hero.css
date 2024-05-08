@@ -1,0 +1,35 @@
+.main-hero {
+    background-image: url('/imgs/heromartinez.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    heigth: auto;
+    padding: 0 .5rem 1rem;
+}
+.container-hero {
+    display: flex;
+    height: 100vh;
+    width: 85%; 
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.anchor-cta { 
+    text-decoration: none;
+    color: #020000;
+    font-size: 2rem;
+    padding: 1rem;
+    background: #dcbc95;
+    font-weight: 800;
+    border-radius: 18px;
+    margin: 1rem 0;
+    display: flex;
+    border: 2px solid #000;
+}
+.contact-svg {
+    margin: auto 0;
+    padding: 0 6px;
+}
+.container-hero p {
+    padding: 1rem;
+    font-size: 1.139rem;
+}

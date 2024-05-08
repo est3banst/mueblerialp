@@ -1,0 +1,15 @@
+.about-container {
+    background: #f5efe8;
+    display: flex;
+    justify-content: center;
+}
+.section-about {
+    margin: 1rem;
+    padding: 1rem;
+}
+.article-about {
+    padding: 1rem 0;
+}
+.article-about svg {
+    color: #020202;
+}
