@@ -1,15 +1,28 @@
 .about-container {
-    background: #f5efe8;
-    display: flex;
-    justify-content: center;
+    background: #fff;
+   /* display: flex;
+    justify-content: center; */
 }
 .section-about {
     margin: 1rem;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: .7px solid #0c0c00;
 }
 .article-about {
     padding: 1rem 0;
 }
 .article-about svg {
     color: #020202;
+}
+.heading-about {
+    color: #020002;
+    font-size: 1.123rem;
+    font-weight: 600;
+    font-family: 'Crimson Text', serif;
+}
+.heading-about span {
+    text-decoration: underline;
 }

@@ -3,6 +3,10 @@ import Nav from "./componentes/Nav"
 import Hero from "./componentes/Hero"
 import Trabajos from "./componentes/Work/Trabajos"
 import About from "./componentes/About"
+import Contact from "./componentes/Contact"
+import Compra from "./componentes/Compra"
+import Whatsapp from "./componentes/Whatsapp"
+import { Client } from "./componentes/Client"
 
 function App() {
 
@@ -11,7 +15,12 @@ function App() {
     <Nav />
     <Hero />
     <Trabajos />
+
+    <Compra />
     <About />
+    <Client />
+    <Contact />
+    <Whatsapp />
     </>
   )
 }
