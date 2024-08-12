@@ -1,7 +1,5 @@
 .about-container {
     background: #fff;
-   /* display: flex;
-    justify-content: center; */
 }
 .section-about {
     margin: 1rem;
@@ -14,8 +12,9 @@
 .article-about {
     padding: 1rem 0;
 }
-.article-about svg {
-    color: #020202;
+
+.article-about svg path {
+    fill: #b3764c;
 }
 .heading-about {
     color: #020002;

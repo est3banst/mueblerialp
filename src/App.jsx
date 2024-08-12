@@ -14,9 +14,10 @@ function App() {
     <>
     <Nav />
     <Hero />
-    <Trabajos />
 
     <Compra />
+    <Trabajos />
+
     <About />
     <Client />
     <Contact />
