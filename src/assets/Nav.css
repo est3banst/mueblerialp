@@ -38,3 +38,18 @@
     font-size: 1.43rem;
     display: inline;
 }
+
+@media (width <= 520px) {
+    .nav-bar-ul {
+        display: none;
+    }
+    .nav-bar {
+        width: 100%;
+    }
+    .burger-menu {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin: auto;
+    }
+}

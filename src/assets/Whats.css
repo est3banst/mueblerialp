@@ -1,6 +1,6 @@
 .container-whatsapp {
     position: fixed;
-    right: 20px;
+    right: 12px;
     bottom: 0;
     box-sizing: content-box;
     width: 45px;
@@ -9,7 +9,7 @@
     width: max-content;                 
     background-color: #25d366;
     padding: .2742rem;
-    margin-right: 1.908rem;
+    margin-right: 1.30rem;
     margin-bottom: 2.1023rem;
     border-radius: 8px;
     z-index: 888;

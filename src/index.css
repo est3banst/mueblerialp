@@ -13,7 +13,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+body {
+  overflow-x: hidden;
+}
 @media (prefers-color-scheme: light) {
   :root {
     background-color: #ffffff;

@@ -4,9 +4,13 @@ import '../assets/Hero.css'
 const Hero = () => {
   return (
     <main className='main-hero'>
-        <div className='container-hero'>
+      <video 
+      autoPlay
+      muted
+      loop
+      src="/imgs/bigslabc.mp4"></video>
             <section className='cta-hero'>
-            <a className='anchor-cta' href="https://wa.me/+59898775976?text=Estoy%20interesado%20en%20un%20presupuesto%20para%20..." target="blank">
+            <a className='anchor-cta' href="tel:+59898775976">
                 Contáctanos hoy    
                <svg className='contact-svg' width="49px" height="49px" viewBox="0 0 20 20" fill="currentColor" x="171.5" y="171.5" 
                xmlns="http://www.w3.org/2000/svg">
@@ -16,8 +20,8 @@ const Hero = () => {
                 </svg> 
                 </a>
             <p>Y charlamos tu siguiente proyecto</p>
+            <small>Horario de atención: 8:00 - 17:00</small>
             </section>
-        </div>
     </main>
   )
 }

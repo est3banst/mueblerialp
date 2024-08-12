@@ -1,17 +1,85 @@
 .business-banner {
-    width: 100%;
+    display: grid;
+    align-items: start;
+    height: 200vh;
+}
+figure {
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.svg-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.business-banner figure {
-width: 100%;
-margin: 0;
-margin-inline-end: 0;
-display: flex;
-margin-block-end: 0;
-}
-.business-banner figure img{
+    grid-area: 1/1;
+    z-index: 10;
+    background-color: #fff;
+    mix-blend-mode: lighten;
+  }
+.svg-container svg {
+    height: 100%;
+  }
+
+@keyframes paint-line {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+.svg-container path {
+    stroke-dasharray: 9300;
+    stroke-dashoffset: 0;
+  }
+  
+.business-banner figure  {
+    grid-area: 1/1;
+    height: 100dvh;
+    position: sticky;
+    top: 0;
+  }
+  
+.business-banner figure img {
     width: 100%;
-    margin: 0;
-}
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.brand-container {
+    grid-area: 1/1;
+    margin-top: 100dvh;
+    z-index: 10;
+    color: #fff;
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+@keyframes fade-in {
+    50% {
+      opacity: 1;
+    }
+  }
+  
+.brand-container > p {
+    margin-bottom: 20vh;
+    background-color: rgba(0, 0, 0, .33);
+    backdrop-filter: blur(5px);
+  }
+  
+@supports (animation-timeline: view()) {
+    .brand-container > p {
+      margin-bottom: 20vh;
+      opacity: 0;
+      animation: fade-in both linear;
+      animation-timeline: view();
+      animation-range: entry 10% cover 90%;
+    }
+  
+    .svg-container path {
+      stroke-dashoffset: 9300;
+      animation: paint-line linear both;
+      animation-timeline: view();
+      animation-range: entry 25% entry 80%;
+    }
+  }
+  
