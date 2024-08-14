@@ -21,7 +21,7 @@ const Compra = () => {
         </div>
 
         <figure>
-        <img src="/imgs/mob.svg" alt="" />
+        <img src="/imgs/mobcomp.svg" alt="" />
         </figure>
 
         <div className="brand-container">

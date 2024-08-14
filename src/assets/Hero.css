@@ -3,7 +3,7 @@
     min-width: 380px;
     position: relative;
     display: flex;
-    height: 100vh;
+    height: 130vh;
     flex-direction: column;
     justify-content: center;
 }

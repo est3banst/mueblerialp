@@ -6,7 +6,7 @@ export const Client = () => {
     <>
     <div className="contact-work">
         <figure>
-            <img src="/imgs/mobmz.svg" alt="" />
+            <img src="/imgs/mobmzcomp.svg" alt="" />
         </figure>
     </div>
     </>
