@@ -1,7 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@font-face {
+    font-family: custFont;
+    src: url(/fonts/AUGUSTUS.ttf);
+  }
 
 .component-container {
     background: #f5efe8;
@@ -30,15 +30,37 @@
     justify-content: center;
     align-items: center;
 }
-.nav-bar-ul li {
+.menu-sections {
     list-style-type: none;
     color: #000;
     margin: 0 1rem;
-    padding: 4px 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-family: custFont, serif;
     font-size: 1.43rem;
-    display: inline;
+    text-transform: lowercase;
 }
-
+.menu-responsivo a{
+    text-decoration: none;
+    font-size: 1.67rem;
+    padding: 12px 8px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.menu-responsivo a:hover{
+    background-color: #fae36e;
+}
+.menu-responsivo {
+    height: 100vh;
+    background-color: #f5efe8;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    display: none;
+    z-index: 99;
+}
 @media (width <= 520px) {
     .nav-bar-ul {
         display: none;
@@ -51,5 +73,8 @@
         justify-content: center;
         cursor: pointer;
         margin: auto;
+    }
+    .visible {
+        display: block;
     }
 }
