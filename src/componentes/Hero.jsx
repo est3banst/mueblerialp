@@ -8,7 +8,7 @@ const Hero = () => {
       autoPlay
       muted
       loop
-      src="/imgs/bigslabc.mp4"></video>
+      src="/imgs/bigslabcom.mp4"></video>
             <section className='cta-hero'>
             <a className='anchor-cta' href="tel:+59898775976">
                 Contáctanos hoy    
