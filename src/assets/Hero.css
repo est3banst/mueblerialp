@@ -1,9 +1,9 @@
 .main-hero {
-    width: 100%;
+
     min-width: 380px;
     position: relative;
     display: flex;
-    height: 130vh;
+    height: 150vh;
     flex-direction: column;
     justify-content: center;
 }
@@ -11,6 +11,7 @@
     object-fit: cover;
     overflow: hidden;
     height: 100%;
+    top: 0;
 }
 
 .cta-hero {
@@ -22,7 +23,9 @@
     border-radius: 14px;
     align-items: center;
     position: absolute;
-    padding: 3px;
+    padding: 6px;
+    z-index: 888;
+    top: 40%;
 }
 .anchor-cta { 
     text-decoration: none;

@@ -4,9 +4,15 @@
   }
 
 .component-container {
-    background: #f5efe8;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
+    position: fixed;
+    left: 0;    
+    top: 0;
+    z-index: 999;
+    width: 100%;
     justify-content: space-between;
 }
 .logo-container {
@@ -19,8 +25,8 @@
     display: none;
 }
 .logo {
-    max-height: 200px;
-    mix-blend-mode: darken;
+    max-height: 150px;
+    mix-blend-mode: multiply;
 }
 .nav-bar {
     width: 50%;
@@ -32,7 +38,7 @@
 }
 .menu-sections {
     list-style-type: none;
-    color: #000;
+    color: #fff;
     margin: 0 1rem;
     padding: 8px;
     display: flex;
@@ -45,6 +51,7 @@
     text-decoration: none;
     font-size: 1.67rem;
     padding: 12px 8px;
+    color: #fff;
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -54,12 +61,14 @@
 }
 .menu-responsivo {
     height: 100vh;
-    background-color: #f5efe8;
-    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem 0;
     position: fixed;
-    width: 100%;
+    width: 75%;
+    overflow: hidden;
     display: none;
-    z-index: 99;
+    z-index: 996;
 }
 @media (width <= 520px) {
     .nav-bar-ul {
@@ -73,6 +82,7 @@
         justify-content: center;
         cursor: pointer;
         margin: auto;
+        color: #fff;
     }
     .visible {
         display: block;
