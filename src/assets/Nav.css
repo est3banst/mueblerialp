@@ -24,8 +24,15 @@
 .burger-menu {
     display: none;
 }
+.logo-container a {
+    border-radius: 50%;
+
+    background-color: #d6c5bc;
+    /* max-height: 150px; */
+}
 .logo {
     max-height: 150px;
+
     mix-blend-mode: multiply;
 }
 .nav-bar {
@@ -61,18 +68,27 @@
 }
 .menu-responsivo {
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
     padding: 1.5rem 0;
-    position: fixed;
-    width: 75%;
+    position: relative;
+    width: 105%;
     overflow: hidden;
     display: none;
     z-index: 996;
 }
+.menu-and-logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
 @media (width <= 520px) {
     .nav-bar-ul {
         display: none;
+    }
+    .component-container {
+        flex-direction: column;
     }
     .nav-bar {
         width: 100%;

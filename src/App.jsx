@@ -12,11 +12,10 @@ function App() {
   return (
     <>
     <Hero />
-    <Compra />
-    <Trabajos />
 
     <About />
-    <Client />
+    <Compra />
+    <Trabajos />
     <Contact />
     <Whatsapp />
     </>

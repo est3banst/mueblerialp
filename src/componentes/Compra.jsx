@@ -21,13 +21,13 @@ const Compra = () => {
         </div>
 
         <figure>
-        <img src="/imgs/mobcomp.svg" alt="" />
+        <img src="/imgs/mobmzcomp.svg" alt="" />
         </figure>
 
         <div className="brand-container">
           <p className="fading-text">Renová tus espacios</p>
-          <p className="fading-text">Muebles que perduran</p>
-          <p className="fading-text">Atención personalizada</p>
+          <p className="fading-text">Muebles que realzan</p>
+          <p className="fading-text">Trabajos con garantía</p>
         </div>
         </div>
   

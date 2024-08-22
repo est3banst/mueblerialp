@@ -12,7 +12,8 @@ const Nav = () => {
   return (
     <>
     <header className='component-container'>
-      <div className='logo-container'>
+     <div className='menu-and-logo'>
+     <div className='logo-container'>
         <a href="/">
           <img className='logo' src="/imgs/gmartinezlogo-removebg.png" alt="Martinez Logo" />
         </a> </div>
@@ -38,7 +39,8 @@ const Nav = () => {
           </svg>
         </div>
       </nav>
-    </header>
+     </div>
+
     <div  className={`menu-responsivo ${menuResponsive}`}>
       <a className='menu-sections' href="">nosotros <svg width="24px" height="24px" viewBox="0 0 32 32" fill="currentColor" x="128" y="128" role="img" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m22 6l8 10l-8 10m8-10H2"/></g></svg>
       </a>
@@ -47,6 +49,7 @@ const Nav = () => {
       <a className='menu-sections' href="">contacto <svg width="24px" height="24px" viewBox="0 0 32 32" fill="currentColor" x="128" y="128" role="img" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m22 6l8 10l-8 10m8-10H2"/></g></svg>
       </a>
     </div>
+    </header>
     
     </>
   )
