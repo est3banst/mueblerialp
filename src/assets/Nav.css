@@ -1,38 +1,13 @@
-@font-face {
-    font-family: custFont;
-    src: url(/fonts/AUGUSTUS.ttf);
-  }
-
-.component-container {
-    background: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(10px);
-    display: flex;
-    align-items: center;
-    position: fixed;
-    left: 0;    
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    justify-content: space-between;
-}
-.logo-container {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-bg {
+    background: #e5e7eb;
 }
 .burger-menu {
     display: none;
 }
 .logo-container a {
     border-radius: 50%;
-
-    background-color: #d6c5bc;
-    /* max-height: 150px; */
 }
 .logo {
-    max-height: 150px;
-
     mix-blend-mode: multiply;
 }
 .nav-bar {
@@ -43,9 +18,15 @@
     justify-content: center;
     align-items: center;
 }
+.nav-bar-ul li {
+    cursor: pointer;
+}
+.nav-bar-ul li:hover {
+    background-color: #fae36e;
+}
 .menu-sections {
     list-style-type: none;
-    color: #fff;
+    
     margin: 0 1rem;
     padding: 8px;
     display: flex;
@@ -54,28 +35,37 @@
     font-size: 1.43rem;
     text-transform: lowercase;
 }
-.menu-responsivo a{
-    text-decoration: none;
-    font-size: 1.67rem;
-    padding: 12px 8px;
-    color: #fff;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
+
 .menu-responsivo a:hover{
     background-color: #fae36e;
 }
 .menu-responsivo {
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(10px);
-    padding: 1.5rem 0;
+    background-color: #e5e7eb;
     position: relative;
-    width: 105%;
+    width: 100%;
     overflow: hidden;
+    right: 0;
+    bottom: -18%;
     display: none;
-    z-index: 996;
+    gap: 20rem;
+    flex-direction: column;
+    z-index: 999;
+}
+.visible {
+    display: flex;
+    
+    position: fixed;
+}
+.menu-responsivo a {
+    text-decoration: none;
+    font-size: 1.67rem;
+    padding: 4px;
+    color: #020202;
+    font-family: 'Crimson', serif;
+    display: flex;
+
+    width: 100%;
+    justify-content: space-around;
 }
 .menu-and-logo {
     display: flex;
@@ -83,10 +73,15 @@
     width: 100%;
     justify-content: space-evenly;
 }
+.custom-bk {
+    display: none;
+}
+
 @media (width <= 520px) {
     .nav-bar-ul {
         display: none;
     }
+    
     .component-container {
         flex-direction: column;
     }
@@ -98,9 +93,6 @@
         justify-content: center;
         cursor: pointer;
         margin: auto;
-        color: #fff;
     }
-    .visible {
-        display: block;
-    }
+    
 }
