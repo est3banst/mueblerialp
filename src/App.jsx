@@ -12,15 +12,16 @@ function App() {
 
   return (
     <>
-     <Nav/>
+    <div className="grid w-[100vw] mx-2">
+    <Nav/>
     <Hero />
-
     <About />
     <Compra />
     <Trabajos />
     <Contact />
     <Footer />
     <Whatsapp />
+    </div>
     </>
   )
 }
