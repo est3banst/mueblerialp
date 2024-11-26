@@ -43,7 +43,7 @@ const Nav = () => {
         <a 
         className='flex items-center justify-center w-full'
         href="/">
-          <img className='object-contain h-28' src="/imgs/gmartinezlogo-removebg.png" alt="Martinez Logo" />
+          <img className='object-cover h-32' src="/imgs/gmartinezlogo-removebg.png" alt="Martinez Logo" />
         </a> 
         <nav className='flex w-full h-full justify-center items-center'>
         <ul className='nav-bar-ul'>
@@ -52,9 +52,7 @@ const Nav = () => {
               </b>
               </li>
             <li className='menu-sections flex gap-1'>Trabajos
-              
               <b>&rarr;</b>
-            
             </li>
             <li className='menu-sections flex gap-1'>Contacto
             <b>&rarr;</b>

@@ -45,7 +45,7 @@
     width: 100%;
     overflow: hidden;
     right: 0;
-    bottom: -15%;
+    top: 16%;
     display: none;
     gap: 20rem;
     flex-direction: column;
