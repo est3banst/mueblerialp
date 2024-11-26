@@ -10,7 +10,7 @@ import RoperoBr from '/imgs/works/roper-br.jpeg';
 const Trabajos = () => {
   return (
     <>
-    <div className='grid items-center  justify-center gap-3 grid-cols-[repeat(auto-fit,_minmax(550px,_1fr))]'>
+    <div className='grid items-center justify-center gap-3 md:gap-6 md:p-4 md:m-3 grid-cols-[repeat(auto-fit,_minmax(280px,_1fr))]'>
     <WorkComp 
     src={BedMont}
     alt='Cama Infantil Montessori'

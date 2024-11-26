@@ -6,14 +6,15 @@ const WorkComp = (props) => {
     <div className='articles'>
         <article className='work-article'>
             <figure className='work-figure'>
-                <img className='work-image w-full md:object-contain' src={props.src} alt={props.alt} />
+                <img className='work-image w-full' src={props.src} alt={props.alt} />
             </figure>
-            <div className="work-resumen">
+            <div className="work-resumen p-6">
                 <h2 className='text-xl md:text-2xl lg:text-3xl'>{props.title}</h2>
-                <p className='custom-font text-base md:text-xl lg:text-2xl'> {props.descr}
+                <hr />
+                <p className='custom-font font-bold text-sm md:text-base lg:text-xl'> {props.descr}
                 </p>
-                <p className='custom-font text-xs md:text-base lg:text-xl'>{props.time}</p>
-                <p className='custom-font text-xs md:text-base lg:text-xl'>{props.precio}</p>
+                <p className='custom-font text-xs md:text-sm lg:text-base'>{props.time}</p>
+                <p className='custom-font text-xs md:text-sm lg:text-base'>{props.precio}</p>
             </div>       
             </article>
 
