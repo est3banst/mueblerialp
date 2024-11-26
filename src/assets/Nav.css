@@ -44,16 +44,17 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    right: 0;
-    top: 16%;
+    height: 100vh;
     display: none;
     gap: 20rem;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     z-index: 999;
 }
 .visible {
     display: flex;
-    
+    margin-top: 3rem;
     position: fixed;
 }
 .menu-responsivo a {
@@ -63,7 +64,6 @@
     color: #020202;
     font-family: 'Crimson', serif;
     display: flex;
-
     width: 100%;
     justify-content: space-around;
 }
