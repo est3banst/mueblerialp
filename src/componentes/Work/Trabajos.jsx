@@ -15,7 +15,7 @@ const Trabajos = () => {
     src={BedMont}
     alt='Cama Infantil Montessori'
     title='Cama Montessori'
-    descr='Cama Montessori con Ropero'
+    descr='Cama Montessori con Ropero marinero'
     time='Tiempo estimado 12 dias'
     precio='Medidas estandar: $17.500'
     />
