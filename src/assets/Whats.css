@@ -3,10 +3,11 @@
     right: 0;
     bottom: 10px;
     box-sizing: border-box;
+    padding: 10px;
     display: flex;
     width: max-content;                 
     background-color: #25d366;
-    border-radius: 8px;
+    border-radius: 50%;
     z-index: 888;
 }
 .container-whatsapp span {

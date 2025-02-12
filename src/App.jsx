@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className="grid w-[100vw] mx-2 overflow-x-hidden">
+    <div className="grid w-[100vw] mr-2 overflow-x-hidden">
     <Nav/>
     <Hero />
     <About />

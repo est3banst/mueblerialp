@@ -5,7 +5,10 @@ import '../assets/Contact.css'
 const Contact = () => {
   return (
     <>
-        <form className="form">
+    <div className='bg-[#f5efe8]'>
+
+    
+        <form className="form w-full p-3 md:w-3/5">
     
     <div className="flex">
         <label>
@@ -40,6 +43,7 @@ const Contact = () => {
       <span className="bottom-key-2"></span>
     </button>
 </form>
+</div>
     </>
   )
 }

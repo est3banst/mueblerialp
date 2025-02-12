@@ -10,7 +10,7 @@ const Whatsapp = () => {
     href="https://wa.me/+59898775976?text=Hola,%20estoy%20interesado%20en%20un%20presupuesto%20para%20..">
         
         <div className='container-whatsapp'>
-        <span>Chateá con nosotros </span>  
+       
             <svg className='contact-whatsapp' width="40" height="40" viewBox="0 0 24 24" strokeWidth="1.5"
             stroke="currentColor" fill="none" strokeLinecap="round" 
             strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
